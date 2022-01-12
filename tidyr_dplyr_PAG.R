@@ -9,7 +9,7 @@ library(tidyverse)
 setwd("C:/Users/Patrick/Dropbox (Personal)/Work/Classes and Teaching/UCSB_R_Seminar/EEMB-R-Workshop-tidyr-dplyr/")
 basic.mongooses <- read.csv("mongooses.csv")
 mongooses <- as_tibble(read.csv("mongooses.csv"))
-
+head(mongooses)
 #check out how R views these differently
 basic.mongooses
 mongooses  
